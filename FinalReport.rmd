@@ -144,6 +144,22 @@ colPerc(table1)
 ```
 
 
+These numerical results show specific percentages of girls(females) that got covid-19 after taking the placebo and taking the vaccine. 
+Among the gals, 33% got covid-19 after taking the vaccine, while the approximately 67% of girls that were given the placebo contracted covid-19. The vaccine is clearly not effective in preventing covid-19 in girls(females) and it is not recommended. Those who took the placebo were much less likely to contact covid-19
+The odds of getting covid-19  for a woman while taking the vaccine is 1:2. The women that took the drug were half as likely to get covid-19 (33%) than those taking the placebo(67%).
+
+## inferential Results
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+galfish <- fisher.test(table1)
+galfish
+```
+
+
+
+
 # Drug Users
 
 # Gay
